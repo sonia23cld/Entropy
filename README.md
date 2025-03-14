@@ -13,4 +13,4 @@ This number should be one greater than the number of genotype classes times the 
 I have: 1958 --> 260x5(tetra) + 219x3(dip)= 1957+1=1958
 
 3. Run Entropy. I have written a script (Entropy_parallel.sh) to run entropy in parallel for several k. You just have to run it several times to have replicates (change chain name).
-4. Plot admixture proportions. First, create the input files with plot_admix.sh, which runs plot_admxture.R. Then, download locally the results and analyse them with R script Entropy_plotadmix.R. It gives map with piecharts of admixture proportions and barplot admixture.
+4. Plot admixture proportions. First, create the input files with plot_admix.sh, which runs plotadmix.R. Then, download locally the results and analyse them with R script Entropy_plotadmix.R. It gives map with piecharts of admixture proportions and barplot admixture.
